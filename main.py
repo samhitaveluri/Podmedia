@@ -5,7 +5,7 @@ from api_04 import save_transcript
 
 st.title("Podcast Summaries")
 
-json_files = glob.glob('*.json')
+json_files = glob.glob('*.json') 
 
 episode_id = st.sidebar.text_input("Episode ID")
 button = st.sidebar.button("Download Episode summary", on_click=save_transcript, args=(episode_id,))
