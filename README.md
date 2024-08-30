@@ -27,12 +27,5 @@ To run this project locally, follow these steps:
    ```bash
    streamlit run podcast_frontend.py
 
-### Local Usage
-
-1. Access the Streamlit frontend by opening a web browser and navigating to [http://localhost:8501](localhost:8501).
-2. On the homepage, you'll find an input field where you can paste the RSS feed URL of the podcast you want to summarize.
-3. Click the "Process a Podcast Feed" button to initiate the summarization process.
-4. The app will start by downloading the podcast episode in mp3 format and then use the WhisperX model to transcribe the speech to text.
-5. Once transcribed, the text data is fed into the ChatGPT 3.5 Turbo model to generate a summary.
-6. The summary, along with episode details, guest information, and highlights, will be displayed on the Streamlit interface.
+ 
  
